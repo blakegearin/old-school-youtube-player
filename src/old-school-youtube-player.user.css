@@ -152,6 +152,11 @@
     transform: none !important;
   }
 
+  .ytp-delhi-modern .ytp-heat-map-container
+  {
+    margin-bottom: 2px !important;
+  }
+
   .ytp-delhi-modern .ytp-modern-heat-map
   {
     fill: white !important;
