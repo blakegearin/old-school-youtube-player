@@ -32,7 +32,7 @@ This is a userstyle that updates YouTube's video player to look & feel like the 
 ## Usage
 
 1. Install a userstyle manager like [Stylus](https://add0n.com/stylus.html)
-1. Go to [GreasyFork](#wip) or [UserStyles.world](#wip)
+1. Go to [UserStyles.world](https://userstyles.world/style/24856/old-school-youtube-player) or [GreasyFork](https://greasyfork.org/en/scripts/553724-old-school-youtube-player)
 1. Click the install button
 1. The userstyle will open in your userstyle manager where you can install it
 
