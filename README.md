@@ -10,9 +10,10 @@
 
 # Old School YouTube Player
 
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgreasyfork.org%2Fscripts%2F553724-old-school-youtube-player.json&query=total_installs&suffix=%20installs&label=greasy%20fork&color=%23670000&link=https%3A%2F%2Fgreasyfork.org%2Fen%2Fscripts%2F553724-old-school-youtube-player)
 [![License: GPL v3](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)
 
-This is a userstyle that updates YouTube's video player to look & feel like the old design.
+This is a userstyle that updates YouTube's video player to look & feel before the 2025 redesign.
 
 | Before | After (Userstyle) |
 |:-:|:-:|
@@ -20,9 +21,7 @@ This is a userstyle that updates YouTube's video player to look & feel like the 
 
 | Original Design | Userstyle |
 |:-:|:-:|
-| <img src = "img/screenshots/original-design.png" alt = "YouTube player original design" title = "YouTube player original designd" /> | <img src = "img/screenshots/after-userstyle.png" alt = "YouTube player with the userstyle applied" title = "YouTube player with the userstyle applied" /> |
-
-<tema>
+| <img src = "img/screenshots/original-design.png" alt = "YouTube player original design" title = "YouTube player original design" /> | <img src = "img/screenshots/after-userstyle.png" alt = "YouTube player with the userstyle applied" title = "YouTube player with the userstyle applied" /> |
 
 ## Features
 
