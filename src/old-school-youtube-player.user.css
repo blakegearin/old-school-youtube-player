@@ -2,7 +2,7 @@
 @name         Old School YouTube Player
 @namespace    https://github.com/blakegearin/old-school-youtube-player
 @version      2025.10.1
-@description  Updates YouTube's video player to look & feel before the 2025 redesign
+@description  Updates YouTube's video player to the look & feel before the 2025 redesign
 @author       Blake Gearin <hello@blakeg.me> (https://blakegearin.com)
 @supportURL   https://github.com/blakegearin/old-school-youtube-player/issues
 @license      GPL-3.0-only
@@ -358,6 +358,7 @@
 
   /* Time */
 
+  .ytp-time-contents span,
   .ytp-delhi-modern .ytp-time-current,
   .ytp-delhi-modern .ytp-time-separator,
   .ytp-delhi-modern .ytp-time-duration

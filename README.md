@@ -13,7 +13,7 @@
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgreasyfork.org%2Fscripts%2F553724-old-school-youtube-player.json&query=total_installs&suffix=%20installs&label=greasy%20fork&color=%23670000&link=https%3A%2F%2Fgreasyfork.org%2Fen%2Fscripts%2F553724-old-school-youtube-player)
 [![License: GPL v3](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)
 
-This is a userstyle that updates YouTube's video player to look & feel before the 2025 redesign.
+This is a userstyle that updates YouTube's video player to the look & feel before the 2025 redesign.
 
 | Before | After (Userstyle) |
 |:-:|:-:|
@@ -47,7 +47,7 @@ This was built with long-term maintenance in mind. All visual assets are locally
 
 Unlike other solutions, this does not rely on JavaScript and **should continue to work** after YouTube removes the old player entirely. However, if YouTube makes significant changes to their player, like deprecating or combining elements, this userstyle does aim to fill those gaps. So it will not be a perfect recreation forever, but it will retain the same look and feel as long as possible within the given constraints of CSS.
 
-This was designed for desktop browsers. I recommend using [Grayjay](https://grayjay.app/) instead of the YouTube site or app on mobile devices.
+This was designed for desktop browsers and retain compatibility with [SponsorBlock](https://sponsor.ajay.app/). For mobile devices, I recommend using [Grayjay](https://grayjay.app/) instead of the YouTube website or app.
 
 **Note:** The settings menu is not modified by this userstyle. It's considered outside the scope of this project due to it being a separate, pop-up element and prone to changes video to video and over time by YouTube.
 
