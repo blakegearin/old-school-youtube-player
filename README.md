@@ -44,9 +44,11 @@ To help maintain this project and in the spirit of aiding future developers, the
 
 ### Maintenance
 
-This was built with long-term maintenance in mind. All assets are locally stored to avoid external dependencies.
+This was built with long-term maintenance in mind. All visual assets are locally stored to avoid external dependencies.
 
 Unlike other solutions, this does not rely on JavaScript and **should continue to work** after YouTube removes the old player entirely. However, if YouTube makes significant changes to their player, like deprecating or combining elements, this userstyle does aim to fill those gaps. So it will not be a perfect recreation forever, but it will retain the same look and feel as long as possible within the given constraints of CSS.
+
+This was designed for desktop browsers. I recommend using [Grayjay](https://grayjay.app/) instead of the YouTube site or app on mobile devices.
 
 **Note:** The settings menu is not modified by this userstyle. It's considered outside the scope of this project due to it being a separate, pop-up element and prone to changes video to video and over time by YouTube.
 
