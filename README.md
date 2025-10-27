@@ -55,7 +55,7 @@ To help maintain this project and in the spirit of aiding future developers, the
 
 This was built with long-term maintenance in mind. All visual assets are locally stored to avoid external dependencies.
 
-Unlike other solutions, this does not rely on JavaScript and **should continue to work** after YouTube removes the old player entirely. However, if YouTube makes significant changes to their player, like deprecating or combining elements, this userstyle does aim to fill those gaps. So it will not be a perfect recreation forever, but it will retain the same look and feel as long as possible within the given constraints of CSS.
+Unlike other solutions, this does not rely on JavaScript and **should continue to work** after YouTube removes the old player entirely. However, if YouTube makes significant changes to their player, like deprecating or combining elements, this userstyle does **not** aim to fill those gaps, since it is CSS-based. So it will not be a perfect recreation forever, but it will retain the same look and feel as long as possible within the given constraints.
 
 This was designed for desktop browsers and retain compatibility with [SponsorBlock](https://sponsor.ajay.app/). For mobile devices, I recommend using [Grayjay](https://grayjay.app/) instead of the YouTube website or app.
 
