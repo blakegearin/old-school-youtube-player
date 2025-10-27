@@ -31,9 +31,18 @@ This is a userstyle that updates YouTube's video player to the look & feel befor
 ## Usage
 
 1. Install a userstyle manager like [Stylus](https://add0n.com/stylus.html)
-1. Go to [UserStyles.world](https://userstyles.world/style/24856/old-school-youtube-player) or [GreasyFork](https://greasyfork.org/en/scripts/553724-old-school-youtube-player)
+1. Go to [UserStyles.world](https://userstyles.world/style/24856/old-school-youtube-player)
 1. Click the install button
 1. The userstyle will open in your userstyle manager where you can install it
+
+### Userscript Variant
+
+1. Install a userscript manager like [Tampermonkey](https://www.tampermonkey.net), [Violentmonkey](https://violentmonkey.github.io), or [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+1. Go to [GreasyFork](https://greasyfork.org/en/scripts/553724-old-school-youtube-player), or [OpenUserJS](https://openuserjs.org/scripts/blakegearin/Old_School_YouTube_Player)
+1. Click the install button
+1. The userscript will open in your userscript manager where you can install it
+
+**Note:** The userscript variant is a simple wrapper around the userstyle, so it's still CSS-based.
 
 ## Documentation
 
