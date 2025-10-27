@@ -8,7 +8,7 @@
 // @require      https://openuserjs.org/src/libs/sizzle/GM_config.js
 // @grant        GM.getValue
 // @grant        GM.setValue
-// @icon         https://raw.githubusercontent.com/blakegearin/old-school-youtube-player/main/img/logo.svg
+// @icon         https://raw.githubusercontent.com/blakegearin/old-school-youtube-player/main/img/logo.png
 // @supportURL   https://github.com/blakegearin/old-school-youtube-player/issues
 // @license      GPL-3.0-only
 // @copyright    2025, Blake Gearin (https://blakegearin.com)
