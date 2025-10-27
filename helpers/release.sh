@@ -7,15 +7,9 @@ fi
 
 NEW_VERSION=$1
 
-# Update version
-bash helpers/update-version.sh "$NEW_VERSION"
-if [ $? -ne 0 ]; then
-  echo "Failed to update version. Aborting release."
-  exit 1
-fi
-
 # Commit the changes
 git add src/old-school-youtube-player.user.css
+git add src/old-school-youtube-player.user.js
 git commit -m "Release commit for $NEW_VERSION"
 if [ $? -ne 0 ]; then
   echo "Failed to commit changes. Aborting release."
