@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Old School YouTube Player
 // @namespace    https://github.com/blakegearin/old-school-youtube-player
-// @version      2025.10.3
+// @version      2025.10.4
 // @description  Updates YouTube's video player to the look & feel before the 2025 redesign
 // @author       Blake Gearin <hello@blakeg.me> (https://blakegearin.com)
 // @match        *://*.youtube.com/*
@@ -224,7 +224,7 @@ let css = `
     -webkit-box-align: end;
   }
 
-  /* Play/Pause */
+  /* Play/Pause/Replay */
 
   .ytp-delhi-modern .ytp-play-button
   {
@@ -253,6 +253,15 @@ let css = `
   .ytp-delhi-modern .ytp-play-button[data-title-no-tooltip="Pause"] svg path
   {
     d: path('M12 26h4V10h-4zm9 0h4V10h-4z');
+    stroke: #000;
+    stroke-opacity: 0.3;
+    stroke-width: 2px;
+    paint-order: stroke;
+  }
+
+  .ytp-delhi-modern .ytp-play-button[data-title-no-tooltip="Replay"] svg path
+  {
+    d: path('M18 11V7l-5 5 5 5v-4c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6h-2c0 4.4 3.6 8 8 8s8-3.6 8-8-3.6-8-8-8z');
     stroke: #000;
     stroke-opacity: 0.3;
     stroke-width: 2px;
