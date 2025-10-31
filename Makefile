@@ -1,12 +1,10 @@
 version:
-	@if [ -z "$(v)" ]; then echo "Usage: make version v=<version>"; exit 1; fi
 	bash helpers/update-version.sh "$(v)"
 
 userscript:
 	bash helpers/create-userscript.sh
 
 release:
-	@if [ -z "$(v)" ]; then echo "Usage: make release v=<version>"; exit 1; fi
-	make version v="$(v)"
+	$(eval NEW_VERSION := $(shell make version v="$(v)" | tail -n 1))
 	make userscript
-	bash helpers/release.sh "$(v)"
+	bash helpers/release.sh "$(NEW_VERSION)"

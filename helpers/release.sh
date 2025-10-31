@@ -6,6 +6,7 @@ if [ -z "$1" ]; then
 fi
 
 NEW_VERSION=$1
+echo "Starting release for version: $NEW_VERSION"
 
 # Commit the changes
 git add src/old-school-youtube-player.user.css
