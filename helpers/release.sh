@@ -38,4 +38,7 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
+# Create GitHub release
+gh release create "$NEW_VERSION" --generate-notes
+
 echo "Release $NEW_VERSION completed successfully."
