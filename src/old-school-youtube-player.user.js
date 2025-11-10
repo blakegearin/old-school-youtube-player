@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Old School YouTube Player
 // @namespace    https://github.com/blakegearin/old-school-youtube-player
-// @version      2025.10.4
+// @version      2025.11.0
 // @description  Updates YouTube's video player to the look & feel before the 2025 redesign
 // @author       Blake Gearin <hello@blakeg.me> (https://blakegearin.com)
 // @match        *://*.youtube.com/*
@@ -56,6 +56,18 @@ let css = `
   .ytp-delhi-modern .ytp-prev-button:not(.ytp-miniplayer-button-container > *)
   {
     background: transparent !important;
+  }
+
+  .ytp-delhi-modern .ytp-overlay-bottom-left,
+  .ytp-delhi-modern .ytp-overlay-bottom-right
+  {
+    margin-bottom: -7px;
+  }
+
+  .ytp-delhi-modern.ytp-fullscreen-grid-peeking .ytp-overlay-bottom-left,
+  .ytp-delhi-modern.ytp-fullscreen-grid-peeking .ytp-overlay-bottom-right
+  {
+    margin-bottom: -22px;
   }
 
   /* Height  */
