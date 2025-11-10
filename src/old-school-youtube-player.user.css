@@ -50,6 +50,18 @@
     background: transparent !important;
   }
 
+  .ytp-delhi-modern .ytp-overlay-bottom-left,
+  .ytp-delhi-modern .ytp-overlay-bottom-right
+  {
+    margin-bottom: -7px;
+  }
+
+  .ytp-delhi-modern.ytp-fullscreen-grid-peeking .ytp-overlay-bottom-left,
+  .ytp-delhi-modern.ytp-fullscreen-grid-peeking .ytp-overlay-bottom-right
+  {
+    margin-bottom: -22px;
+  }
+
   /* Height  */
 
   .ytp-delhi-modern .ytp-chrome-bottom
