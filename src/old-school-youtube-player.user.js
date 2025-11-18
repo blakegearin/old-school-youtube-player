@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Old School YouTube Player
 // @namespace    https://github.com/blakegearin/old-school-youtube-player
-// @version      2025.11.0
+// @version      2025.11.1
 // @description  Updates YouTube's video player to the look & feel before the 2025 redesign
 // @author       Blake Gearin <hello@blakeg.me> (https://blakegearin.com)
 // @match        *://*.youtube.com/*
@@ -22,14 +22,12 @@ let css = `
 
   .ytp-delhi-modern .ytp-chrome-bottom
   {
-    width: 100% !important;
-    left: 0 !important;
     bottom: 0;
     z-index: 59;
   }
 
   /* Only display on hover */
-  .ytp-delhi-modern:hover .ytp-chrome-bottom::before
+  .ytp-delhi-modern:hover::before
   {
     content: "";
     height: 194px;
@@ -82,7 +80,6 @@ let css = `
     height: 48px !important;
     line-height: 48px !important;
     margin-top: 3px;
-    margin-left: 14px !important;
   }
 
   .ytp-delhi-modern .ytp-chrome-controls
@@ -111,11 +108,6 @@ let css = `
   }
 
   /* Progress bar */
-
-  .ytp-delhi-modern .ytp-progress-bar-container
-  {
-    left: 12px;
-  }
 
   .ytp-delhi-modern .ytp-progress-bar-container
   {
