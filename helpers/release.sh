@@ -40,5 +40,6 @@ fi
 
 # Create GitHub release
 gh release create "$NEW_VERSION" --generate-notes
+gh release upload "$NEW_VERSION" src/old-school-youtube-player.user.css src/old-school-youtube-player.user.js
 
 echo "Release $NEW_VERSION completed successfully."
